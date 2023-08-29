@@ -33,7 +33,7 @@ def Candidate_prediction(Gender, Employee_Group, Country, Business_Unit,Job_Clas
     
     return f"Predicted stay duration: {predicted_duration[0]:.2f} years"
 
-encoder_excel_path = "C:\\Users\\103925suay\\Downloads\\LE_code_reg.xlsx"
+encoder_excel_path = "LE_code_reg.xlsx"
 feature_dict = label_encoder_maker(encoder_excel_path)
 
 # feature_dict
